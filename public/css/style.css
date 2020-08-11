@@ -16,22 +16,22 @@
 /*);*/
 @font-face {
 	font-family: MontserratLight;
-	src: url('/fonts/MontserratLight.eot');
-	src: url('/fonts/MontserratLight.eot') format("embedded-opentype"),
-		url('/fonts/MontserratLight.woff2') format("woff2"),
-		url('/fonts/MontserratLight.woff') format("woff"),
-		url('/fonts/MontserratLight.ttf') format("truetype"),
-		url('/fonts/MontserratLight.svg#MontserratLight') format("svg");
+	src: url('public/fonts/MontserratLight.eot');
+	src: url('public/fonts/MontserratLight.eot') format("embedded-opentype"),
+		url('public/fonts/MontserratLight.woff2') format("woff2"),
+		url('public/fonts/MontserratLight.woff') format("woff"),
+		url('public/fonts/MontserratLight.ttf') format("truetype"),
+		url('public/fonts/MontserratLight.svg#MontserratLight') format("svg");
 }
 
 @font-face {
 	font-family: "Glyphicons Halflings";
-	src: url('/fonts/glyphicons-halflings-regular.eot');
-	src: url('/fonts/glyphicons-halflings-regular.eot?#iefix')
+	src: url('public/fonts/glyphicons-halflings-regular.eot');
+	src: url('public/fonts/glyphicons-halflings-regular.eot?#iefix')
 			format("embedded-opentype"),
-		url('/fonts/glyphicons-halflings-regular.woff') format("woff"),
-		url('/fonts/glyphicons-halflings-regular.ttf') format("truetype"),
-		url('/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular')
+		url('public/fonts/glyphicons-halflings-regular.woff') format("woff"),
+		url('public/fonts/glyphicons-halflings-regular.ttf') format("truetype"),
+		url('public/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular')
 			format("svg");
 }
 
@@ -5272,6 +5272,19 @@ legend.scheduler-border {
 
 /* login page */
 
+.login-content h4 {
+	font-size: 20px;
+	text-align: left;
+}
+
+#forgotUser .modal-body,
+#forgotPass .modal-body {
+	margin-top: 35px;
+}
+#forgotPass label {
+	margin-bottom: 5px;
+	font-size: 15px;
+}
 #loginModal #forgotUserBtn,
 #loginModal #forgotPassBtn {
 	line-height: 3.5;
@@ -5291,4 +5304,38 @@ legend.scheduler-border {
 	position: absolute;
 	top: 36px;
 	right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.panel-body {
+		padding: 0;
+	}
+
+	.panel-body div[class*="col-"] {
+		/* padding: 0; */
+	}
+}
+
+/* signup page */
+
+.register-link p {
+	font-size: 20px;
+}
+
+.horizontal-form {
+	max-height: 300px;
+	overflow: auto;
+}
+
+.horizontal-form label {
+	font-size: 15px;
+	padding-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.horizontal-form label {
+		width: auto;
+		margin-left: 10px;
+		padding-bottom: 5px;
+	}
 }
