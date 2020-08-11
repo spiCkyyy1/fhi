@@ -21,4 +21,8 @@ Route::get('/fhs','FinancialHealthSurveyController@index')->name('fhs');
 
 Route::post('/updateAnswer', 'FinancialHealthSurveyController@updateAnswer')->name('update.answer');
 
+Route::get('/graph',function(){
+    return view('graph');
+})->name('graph');
+
 Auth::routes();

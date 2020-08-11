@@ -246,7 +246,7 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="financial text-center">
-                                        <a href="#">
+                                        <a href="{{route('graph')}}">
                                             <img
                                                 src="{{asset('images/custom/spectrograph.jpg')}}"
                                                 alt=""

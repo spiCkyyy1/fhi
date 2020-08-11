@@ -228,7 +228,7 @@
                         type: 'success'
                     });
                     setTimeout(function(){
-                        window.location = '{!! url()->current() !!}' + '/';
+                        window.location = '{!! url('/') !!}';
                     },1000);
                 }
             }).error(function(data, status){

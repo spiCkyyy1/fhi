@@ -1127,7 +1127,7 @@
                             type: 'success'
                         });
                         setTimeout(function(){
-                            window.location = '{!! url()->current() !!}' + '/login';
+                            window.location = '{!! url('/login') !!}';
                         },2000);
                     }).error(function(data, status){
                         PNotify.removeAll();
