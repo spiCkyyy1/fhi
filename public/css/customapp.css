@@ -1,0 +1,571 @@
+body, td, th {font-family: arial,helvetica; font-size: 12px;}
+.x-grid3-row-expanded .x-grid3-row-body { padding: 5px; }
+.x-tree-node-leaf .x-tree-node-icon {
+	background-image:url(../images/icons/bullet_go.png);
+}
+#fhsgrid .x-grid3-cell-inner, #fhsgrid .x-grid3-hd-inner {
+	overflow: 	auto; white-space: 	normal !important;
+}
+.x-tab-panel-noborder .x-tab-panel-header-noborder, .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
+	border-bottom-width:0;
+}
+ .x-tab-panel-noborder .x-tab-panel-footer-noborder{
+ 	border-top-width:0;
+ }
+.x-panel-noborder .x-panel-tbar-noborder .x-toolbar, .x-tab-panel-tbar-noborder .x-toolbar {
+	background: #F0F4F5 url(../images/noborderbg.gif) repeat-x scroll left top;
+}
+.loading-indicator { font-size:8pt; background-image:url('../lib/ext/resources/images/default/grid/loading.gif');
+background-repeat: no-repeat; background-position:top left; padding-left:20px; height:18px; text-align:left;
+}
+.message-box{ margin-bottom: 5px; }
+#message-area{ background: #555; color: #eee; padding: 2px; }
+#loading{ position:absolute; left:45%; top:40%; border:1px solid #6593cf; padding:2px; background:#c3daf9; width:150px; text-align:center; z-index:20001; }
+#loading .loading-indicator{ border:1px solid #a3bad9; background:white; color:#003366; font:bold 13px tahoma,arial,helvetica; padding:10px; margin:0; }
+#header { padding: 4px; }
+#header h1 { font-size: 40px; }
+#logoutbox { width: 150px; position: absolute; right: 0; top: 0; padding: 5px 10px; text-align: center; }
+#logout-btn { position: absolute; right: 52px; top: 25px; }
+#footer { padding: 4px; font-size: 10px; }
+#footer img { float: right; padding-left: 10px; }
+h1 { font-size: 20px; margin-bottom: 10px; }
+h2 { font-size: 16px; margin-bottom: 10px; padding-top: 4px; }
+h3 { font-size: 14px; margin-bottom: 10px; padding-top: 4px; }
+p { margin-bottom: 8px; }
+p.deviceInfo{ padding: 5px; }
+.textarea ul, ol { margin-bottom: 8px; padding-left: 15px; }
+.textarea li { margin-bottom: 2px; }
+.x-dlg-bd { padding: 10px; }
+.lid1 { padding-left: 18px; background: url('../images/icons/bullet_black.png') 0 0 no-repeat; }
+.lid2 { padding-left: 18px; background: url('../images/icons/bullet_green.png') 0 0 no-repeat; }
+.lid3 { padding-left: 18px; background: url('../images/icons/bullet_red.png') 0 0 no-repeat; }
+.user-node {
+    background-image:  url('../images/icons/user.png') ! important;
+}
+.autoConfig {display: none;}
+.manualConfig { display: none;}
+.hideOutlook { display: none;}
+#device-container .x-grid-bottombar {padding: 10px; background-color: #E6E8EA; border-top: 1px solid #4C535C;}
+.detail-div { background-color: #fff; overflow: auto; }
+#saleProductPanel { width: 615px; height: 175px; }
+.item-name{ font:bold 11px "sans serif", verdana; color:#444444; }
+.list-item, .list-email { display:block; padding:2px 5px; font-size:11px; border:1px solid white; border-bottom:1px solid #eee; color:#222222; cursor:pointer; line-height: 18px; -moz-user-select: none; -khtml-user-select:none; }
+.selected-item{ background:#DFE8F6; border:1px dotted #A3BAE9; }
+.item-col { width: 200px; float: left; padding: 5px 0 5px 10px; }
+.sub-label { font-style: italic; }
+.clear-el { clear: both; }
+.item-from, .item-date{ font:inherit 11px "sans serif", verdana; color:#444444; }
+.item-date { float: right; width: 175px; }
+.unread { font-weight: bold; }
+.email-header { clear: both; margin-bottom:5px; padding: 5px; font-size: 11px; line-height: 18px; background:#ecf5fe url('../images/post-bg.gif') repeat-x; border:1px solid #c3daf9; }
+.value { font-weight: bold; }
+.email-header .subject { font-size: 16px; line-height: 24px; font-weight: bold; }
+.email-msg { margin: 10px 0; }
+#msgFrame { width: 99%; border: none; height: 100%; }
+.x-tree-node div.account, ul.links li{
+    background:#eee url('../images/tree-bg.gif') repeat-x; margin-top:1px; border-top:1px solid #ddd; border-bottom:1px solid #ccc;
+    padding-top:2px; padding-bottom:1px;
+}
+ul.links li { padding-left: 10px; }
+.text-content { padding: 10px; }
+.rowbold td { font-weight: bold }
+.unapproved { background-color: #F5C4C4; }
+.suspicious { background-color: #FAF9AF; }
+.x-tree-node img.pop3{background-image:url('../images/icons/bullet_orange.png');}
+.x-tree-node img.imap{background-image:url('../images/icons/bullet_blue.png');}
+.x-uf-buttons-ct { position:relative; margin-bottom: 8px; }
+.x-uf-input-wrap { position: absolute; top:0; left: 0;}
+.x-uf-input-wrap input {
+	position: relative;
+	opacity: 0.0;
+	-moz-opacity: 0.0;
+	filter: alpha(opacity=0);
+	-moz-user-focus: ignore;
+	border: 0px none transparent;
+	cursor: hand;
+	width: 75px;
+	z-index: 100000;
+}
+#cal-month-list .x-panel-body table, #cal-day-list .x-panel-body table, #cal-week-list .x-panel-body table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+* html #cal-month-list .week, 
+* html #cal-month-list .month-header {
+	width: 99%;
+}
+#cal-month-list .x-panel-body th, #cal-month-list .x-panel-body td {
+    width: 14.29%;
+    vertical-align: top;
+}
+.duration-label {
+	background-color: #eee;
+	color: #888;
+	text-align: right;
+	padding: 4px;
+	height: 40px;
+	width: 125px;
+	vertical-align: top;
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+}
+#cal-week-list .duration-label {
+	width: 150px;
+	height: 75px;
+}
+.week {
+    overflow: hidden; 
+    height: 16%;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    border-left: none;
+	overflow: auto;
+}
+
+.week table{
+	border-collapse: separate;
+}
+
+.month-header th {
+    padding-bottom: 5px;
+    font-weight: normal;
+	text-align: center;
+}
+
+#cal-month-list .week th, #cal-month-list .week td {
+    border-left: 1px solid #DDD;
+}
+
+#cal-month-list .week th {
+    text-align: left;
+    font-weight: normal;
+    color: #888;
+    height: 16px;
+}
+
+.day-number {
+	text-align:right;
+	color: #888;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.week th .day-number {
+   float: right;
+   color: #888;
+   text-decoration: none;
+   padding: 2px;
+   margin: 0;
+}
+
+.month-text {
+	padding: 2px 4px 0 0;
+	font-weight: bold;
+	float: right;
+}
+
+.week th.today {
+    background-color: #FCFDAF;
+}
+
+.week th.today .day-number {
+	color: #555;
+}
+
+td .event {
+    border: 1px solid #C3DAF9;
+	border-width: 1px 0;
+    background-color: #ECF5FE;
+	overflow:auto;
+}
+
+#cal-month-list .x-panel-body td .event {
+	margin-bottom: 1px;
+    padding: 0 0 0 4px;
+	word-wrap:break-word;
+	white-space: nowrap;
+}
+
+#cal-day-list .x-panel-body td, #cal-week-list .x-panel-body td {
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+#cal-day-list td.td-s, #cal-week-list td.td-s {
+	background-color: #ECF5FE;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#cal-day-list td .event, #cal-week-list td .event {
+	margin: 1px;
+	padding: 2px 4px;
+	border: 0;
+}
+
+td .event .description {
+    display: none;
+}
+
+#cal-month-list .filler-cell * {
+	display: block;
+	/*height: 0;*/
+	overflow: hidden;
+}
+.task-overdue .x-grid3-cell-inner {color:#fb223a;}
+.task-completed .x-grid3-cell-inner {text-decoration:line-through; color:gray;}
+
+#ical-buttons .x-btn { margin: 10px 0 5px 10px; }
+/*#ical-buttons span { float: left; }*/
+
+.x-layout-panel-body, #detail-content, #account-detail-content, #contact-detail-body, #task-detail-body, #journal-detail-body, .x-dlg-bd { position: relative; } /* fixes an issue with scrolling in IE */
+/* portal styles */
+.x-portal .x-panel-dd-spacer { margin-bottom:10px;}
+.x-portlet {margin-bottom:10px;}
+
+/* Clean up the look of the portlets */
+.x-portlet .x-panel-ml {padding-left:2px;}
+.x-portlet .x-panel-mr {padding-right:2px;}
+.x-portlet .x-panel-bl {padding-left:2px;}
+
+.x-portlet .x-panel-br {padding-right:2px;}
+.x-portlet .x-panel-body {background:white;}
+.x-portlet .x-panel-mc {padding-top:2px;}
+.x-portlet .x-panel-bc .x-panel-footer {padding-bottom:2px;}
+.x-portlet .x-panel-nofooter .x-panel-bc {height:2px;}
+
+/* Country Flags */
+
+.x-form-field-wrap .x-form-trigger-span-country{width:34px;height:21px;background-color:red;position:absolute:top:0;}
+.x-form-field-wrap .x-form-trigger-country{width:17px;height:21px;border:0;background:transparent url(../lib/ext/resources/images/default/form/trigger.gif) no-repeat 0 0;cursor:pointer;border-bottom:1px solid #B5B8C8;position:absolute;top:0;}
+.x-form-field-wrap .x-form-country{width:25px;height:15px;border:0;position:absolute;top:0;right:0px;padding-top:3px}
+
+/* Upload Dialog */
+
+.ext-ux-uploaddialog-addbtn { background: url('../images/icons/file-add.gif') no-repeat left center !important; }
+.ext-ux-uploaddialog-removebtn{background: url('../images/icons/file-remove.gif') no-repeat left center !important;}
+.ext-ux-uploaddialog-resetbtn{background: url('../images/icons/reset.gif') no-repeat left center !important;}
+.ext-ux-uploaddialog-uploadstartbtn{background: url('../images/icons/upload-start.gif') no-repeat left center !important;}
+.ext-ux-uploaddialog-uploadstopbtn{background: url('../images/icons/upload-stop.gif') no-repeat left center !important;}
+.ext-ux-uploaddialog-indicator-stoped{width: 16px; height: 16px; background: url('../images/icons/done.gif') no-repeat center center;}
+.ext-ux-uploaddialog-indicator-processing{width: 16px; height: 16px; background: url('../images/icons/loading.gif') no-repeat center center;}
+.ext-ux-uploaddialog-state{text-align: center; background-position: center center; background-repeat: no-repeat;}
+
+/* Queued */
+.ext-ux-uploaddialog-state-0{background-image: url('../images/icons/uncheck.gif');}
+
+/* Finished */
+.ext-ux-uploaddialog-state-1{background-image: url('../images/icons/check.gif');}
+
+/* Failed */
+.ext-ux-uploaddialog-state-2{background-image: url('../images/icons/failed.gif');}
+
+/* Processing */
+.ext-ux-uploaddialog-state-3{background-image: url('../images/icons/file-uploading.gif');	}
+
+/* Progress bar fix */
+.ext-ie7 .ext-ux-uploaddialog-dialog .x-progress-bar .x-progress-text div{display: none;}
+.ext-ie7 .ext-ux-uploaddialog-dialog .x-progress-text-back{position: absolute; left: 0px; right: 0px;}
+.ext-ie7 .ext-ux-uploaddialog-dialog .x-progress-text-back div{width: auto !important; white-space: nowrap;}
+
+/* mime type icons */
+.file-pdf .x-tree-node-icon 
+, .file-ai .x-tree-node-icon 
+{
+	background-image: url('../images/icons/page_white_acrobat.png');
+}
+.file-txt .x-tree-node-icon {
+	background-image: url('../images/icons/page_white_text.png');
+}
+.file-bmp .x-tree-node-icon 
+, .file-cgm .x-tree-node-icon 
+, .file-dcm .x-tree-node-icon 
+, .file-dds .x-tree-node-icon 
+, .file-exr .x-tree-node-icon 
+, .file-gif .x-tree-node-icon 
+, .file-hdr .x-tree-node-icon 
+, .file-ico .x-tree-node-icon 
+, .file-jng .x-tree-node-icon 
+, .file-jp2 .x-tree-node-icon 
+, .file-jpeg .x-tree-node-icon 
+, .file-jpg .x-tree-node-icon 
+, .file-pbm .x-tree-node-icon 
+, .file-pbmraw .x-tree-node-icon 
+, .file-pcd .x-tree-node-icon 
+, .file-pcx .x-tree-node-icon 
+, .file-pgm .x-tree-node-icon 
+, .file-pgmraw .x-tree-node-icon 
+, .file-pic .x-tree-node-icon 
+, .file-png .x-tree-node-icon 
+, .file-pnm .x-tree-node-icon 
+, .file-psd .x-tree-node-icon 
+, .file-raw .x-tree-node-icon 
+, .file-rgb .x-tree-node-icon 
+, .file-rgba .x-tree-node-icon 
+, .file-tga .x-tree-node-icon 
+, .file-tif .x-tree-node-icon 
+, .file-tiff .x-tree-node-icon 
+, .file-xbm .x-tree-node-icon 
+, .file-xcf .x-tree-node-icon 
+, .file-xpm .x-tree-node-icon 
+{
+	background-image: url('../images/icons/image.png');
+}
+.file-conf .x-tree-node-icon 
+, .file-vim .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_code.png');
+}
+.file-html .x-tree-node-icon 
+, .file-htm .x-tree-node-icon 
+, .file-sgml .x-tree-node-icon 
+, .file-xhtml .x-tree-node-icon 
+, .file-xml .x-tree-node-icon 
+{
+	background-image: url('../images/icons/page_white_world.png');
+}
+.file-sh .x-tree-node-icon {
+	background-image: url('../images/icons/page_white_code.png');
+}
+.file-3g2 .x-tree-node-icon
+, .file-3gp .x-tree-node-icon
+, .file-asf .x-tree-node-icon
+, .file-asx .x-tree-node-icon 
+, .file-avi .x-tree-node-icon 
+, .file-flc .x-tree-node-icon
+, .file-fli .x-tree-node-icon
+, .file-flv .x-tree-node-icon
+, .file-mkv .x-tree-node-icon
+, .file-mng .x-tree-node-icon
+, .file-mp4 .x-tree-node-icon
+, .file-mpeg .x-tree-node-icon
+, .file-mpg .x-tree-node-icon
+, .file-ogm .x-tree-node-icon
+, .file-rv .x-tree-node-icon
+, .file-wmp .x-tree-node-icon
+, .file-wmv .x-tree-node-icon
+{
+	background-image: url('../images/icons/film.png');
+}
+.file-ttf .x-tree-node-icon 
+, .file-otf .x-tree-node-icon
+{
+	background-image: url('../images/icons/font.png');
+}
+.file-exe .x-tree-node-icon 
+, .file-dll .x-tree-node-icon
+{
+	background-image: url('../images/icons/application.png');
+}
+.file-doc .x-tree-node-icon 
+, .file-odt .x-tree-node-icon
+, .file-rtf .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_word.png');
+}
+.file-xls .x-tree-node-icon 
+, .file-ods .x-tree-node-icon
+, .file-xlc .x-tree-node-icon
+, .file-xll .x-tree-node-icon
+, .file-xlm .x-tree-node-icon
+, .file-xlw .x-tree-node-icon
+, .file-wpd .x-tree-node-icon
+, .file-abw .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_excel.png');
+}
+.file-js .x-tree-node-icon {
+	background-image: url('../images/icons/script.png');
+}
+.file-css .x-tree-node-icon {
+	background-image: url('../images/icons/css.png');
+}
+.file-php .x-tree-node-icon {
+	background-image: url('../images/icons/page_white_php.png');
+}
+.file-7z .x-tree-node-icon
+, .file-a .x-tree-node-icon
+, .file-ace .x-tree-node-icon
+, .file-arj .x-tree-node-icon 
+, .file-bz .x-tree-node-icon
+, .file-bz2 .x-tree-node-icon
+, .file-cpio .x-tree-node-icon 
+, .file-gz .x-tree-node-icon
+, .file-rar .x-tree-node-icon
+, .file-tgz .x-tree-node-icon
+, .file-tnf .x-tree-node-icon
+, .file-z .x-tree-node-icon 
+, .file-zip .x-tree-node-icon 
+, .file-zoo .x-tree-node-icon 
+{
+	background-image: url('../images/icons/page_white_zip.png');
+}
+.file-ppt .x-tree-node-icon 
+, .file-odp .x-tree-node-icon
+, .file-ppz .x-tree-node-icon
+, .file-ppt .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_powerpoint.png');
+}
+.file-msg .x-tree-node-icon {
+	background-image: url('../images/icons/comment.png');
+}
+.file-dwg .x-tree-node-icon 
+, .file-sxd .x-tree-node-icon
+, .file-dhw .x-tree-node-icon
+, .file-svg .x-tree-node-icon
+, .file-ps .x-tree-node-icon
+, .file-eps .x-tree-node-icon
+, .file-wmf .x-tree-node-icon
+, .file-fig .x-tree-node-icon
+, .file-msod .x-tree-node-icon 
+, .file-qpic .x-tree-node-icon 
+{
+	background-image: url('../images/icons/page_white_vector.png');
+}
+.file-ics .x-tree-node-icon
+{
+	background-image: url('../images/icons/date.png');
+}
+.file-chm .x-tree-node-icon
+, .file-info .x-tree-node-icon
+, .file-hlp .x-tree-node-icon
+, .file-help .x-tree-node-icon
+{
+	background-image: url('../images/icons/information.png');
+}
+.file-aac .x-tree-node-icon
+, .file-ac3 .x-tree-node-icon
+, .file-aifc .x-tree-node-icon
+, .file-aiff .x-tree-node-icon
+, .file-ape .x-tree-node-icon
+, .file-au .x-tree-node-icon
+, .file-flac .x-tree-node-icon
+, .file-m3u .x-tree-node-icon
+, .file-m4a .x-tree-node-icon
+, .file-mac .x-tree-node-icon
+, .file-mid .x-tree-node-icon
+, .file-midi .x-tree-node-icon
+, .file-mp2 .x-tree-node-icon
+, .file-mp3 .x-tree-node-icon
+, .file-ogg .x-tree-node-icon
+, .file-psid .x-tree-node-icon
+, .file-ra .x-tree-node-icon
+, .file-ram .x-tree-node-icon
+, .file-sf .x-tree-node-icon
+, .file-sid .x-tree-node-icon
+, .file-spx .x-tree-node-icon
+, .file-wav .x-tree-node-icon
+, .file-wma .x-tree-node-icon
+, .file-wv .x-tree-node-icon
+, .file-wvc .x-tree-node-icon
+{
+	background-image: url('../images/icons/sound.png');
+}
+.file-asc .x-tree-node-icon
+, .file-cer .x-tree-node-icon
+, .file-cert .x-tree-node-icon
+, .file-crt .x-tree-node-icon
+, .file-der .x-tree-node-icon
+, .file-gpg .x-tree-node-icon
+, .file-gpg .x-tree-node-icon
+, .file-p10 .x-tree-node-icon
+, .file-p12 .x-tree-node-icon
+, .file-p7c .x-tree-node-icon
+, .file-p7m .x-tree-node-icon
+, .file-p7s .x-tree-node-icon
+, .file-pem .x-tree-node-icon
+, .file-sig .x-tree-node-icon
+{
+	background-image: url('../images/icons/lock.png');
+}
+.file-bin .x-tree-node-icon
+, .file-cue .x-tree-node-icon
+, .file-img .x-tree-node-icon
+, .file-iso .x-tree-node-icon
+, .file-mdf .x-tree-node-icon
+, .file-nrg .x-tree-node-icon
+{
+	background-image: url('../images/icons/cd_burn.png');
+}
+.file-jar .x-tree-node-icon
+, .file-java .x-tree-node-icon
+, .file-class .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_cup.png');
+}
+.file-sql .x-tree-node-icon
+{
+	background-image: url('../images/icons/page_white_database.png');
+}
+.file-moov .x-tree-node-icon
+, .file-mov .x-tree-node-icon
+, .file-qt .x-tree-node-icon
+{
+	background-image: url('../images/icons/film.png');
+}
+
+
+#nav-screen {
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+#nav-screen h3 {
+	color: rgb(56, 107, 195);
+}
+
+#nav-intro {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+.nav-block {
+	vertical-align: top;
+	text-align: center;  
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.nav-block p {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#nav-icon {
+	text-align: center;
+}
+
+.x-item-over {
+	/*Rounded Corners*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	 
+	/*Gradient*/
+	/*
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+	*/	
+	
+	/*Transition*/
+	-webkit-transition: All 1.0s ease;
+	-moz-transition: All 1.0s ease;
+	-o-transition: All 1.0s ease;
+	-ms-transition: All 1.0s ease;
+	transition: All 1.0s ease;
+	
+	cursor: pointer;
+}
